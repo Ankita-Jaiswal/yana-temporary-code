@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yana-temporary-code/static/css/main.1a1d63a1.css",
-    "main.js": "/yana-temporary-code/static/js/main.a9e2e09a.js",
+    "main.js": "/yana-temporary-code/static/js/main.efa462d1.js",
     "static/js/787.310fb890.chunk.js": "/yana-temporary-code/static/js/787.310fb890.chunk.js",
     "index.html": "/yana-temporary-code/index.html",
     "main.1a1d63a1.css.map": "/yana-temporary-code/static/css/main.1a1d63a1.css.map",
-    "main.a9e2e09a.js.map": "/yana-temporary-code/static/js/main.a9e2e09a.js.map",
+    "main.efa462d1.js.map": "/yana-temporary-code/static/js/main.efa462d1.js.map",
     "787.310fb890.chunk.js.map": "/yana-temporary-code/static/js/787.310fb890.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a1d63a1.css",
-    "static/js/main.a9e2e09a.js"
+    "static/js/main.efa462d1.js"
   ]
 }
