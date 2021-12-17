@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -13,6 +13,39 @@
   }
 }
 
+.yana-heading-label1{
+  font-family: IBM Plex Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: 50px;
+letter-spacing: 0.1599999964237213px;
+text-align: left;
+color: #000000;
+
+
+}
+.yana-heading-label2{
+  font-family: IBM Plex Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0.1599999964237213px;
+text-align: left;
+
+}
+
+.yana-heading-label3{
+  font-family: IBM Plex Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 50px;
+letter-spacing: 0.1599999964237213px;
+text-align: left;
+
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

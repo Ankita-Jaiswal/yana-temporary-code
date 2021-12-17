@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import LandigPageTiles from './components/landing-page';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+
+
+} from "react-router-dom";
+import Login from './components/login';
+import TicketDashBoard from './components/ticket-dashboard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+      <Routes>
+        {/* <Route path="/login">
+          <Login />
+        </Route> */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<LandigPageTiles />} />
+        <Route path="/tickets" element={<TicketDashBoard />} />
+        {/* <Route path="/crew" >
+          <Crew />
+        </Route>
+        <Route path="/technology" >
+          <Technology />
+        </Route> */}
+        {/* <Route path="/">
+          <LandigPageTiles />
+        </Route> */}
+      </Routes>
     </div>
   );
 }

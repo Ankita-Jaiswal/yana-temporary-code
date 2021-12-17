@@ -1,0 +1,24 @@
+@import 'carbon-components/scss/globals/scss/styles.scss';
+
+// If you're wanting to import the grid
+@import 'carbon-components/scss/globals/grid/grid';
+@import '@carbon/type/scss/font-family';
+@import '@carbon/type/scss/type';
+@import '@carbon/type/scss/font-face/mono';
+@import '@carbon/type/scss/font-face/sans';
+
+@include carbon--type-reset();
+@include carbon--font-face-mono();
+@include carbon--font-face-sans();
+
+body {
+  margin: 0;
+  font-family: carbon--font-family('sans');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
