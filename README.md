@@ -1,3 +1,13 @@
+This Project has been created using create-react-app.
+
+To run the project:
+
+Checkout the code
+Go to Project and run npm install in terminal
+run npm start
+Note-: This is just temporary repository, clean code will be available at yana official by 20-12-2021 and this repo will be deleted then
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
